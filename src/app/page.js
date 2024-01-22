@@ -11,6 +11,7 @@ import marvel from "./Assets/marvel.png";
 import avatar from "./Assets/Avatar.png";
 import group from "./Assets/pgrp.png";
 //import star from "./Assets/stars.svg";
+import {IoStarSharp} from "react-icons/io5"
 import logo from "./Assets/logo.png";
 import content from "./Assets/Contents.png";
 import aleft from "./Assets/arrow-left.png";
@@ -124,7 +125,13 @@ export default function Home() {
         <div className="w-[85%] flex max-md:flex-col pt-8 justify-between items-end">
           <div className="w-[40%] max-md:w-[100%]">
             <Image src={shop} width={100} className="pb-10" />
-            <Image src={shop} width={100} className="pb-10" />
+            <div className="flex pb-10">
+              <IoStarSharp color="yellow"/>
+              <IoStarSharp color="yellow"/>
+              <IoStarSharp color="yellow"/>
+              <IoStarSharp color="yellow"/>
+              <IoStarSharp color="yellow"/>
+            </div>
             <p className="text-[30px] max-md:text-[23px] font-medium">
               ClearLink has upgraded our remote meetings. High-quality video,
               screen sharing, and top-notch security make it essential for our
