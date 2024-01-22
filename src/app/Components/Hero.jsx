@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Image from "next/image";
 import AI from "../Assets/AI.png";
-import star from "../Assets/stars.svg";
+//import star from "../Assets/stars.svg";
 import avatar from "../Assets/avatar1.png";
 import smile from "../Assets/bg-mic.png";
 import smile5 from "../Assets/1.png";
@@ -43,7 +43,7 @@ export default function Hero() {
               <Image src={grp} c />
               <div className="pl-3">
                 <span className="flex font-bold text-[12px]">
-                  <Image src={star} height={12} />
+                  <Image src={smile} height={12} />
                   5.0
                 </span>
                 <span className="text-[12px]">from 3000+reviews</span>
