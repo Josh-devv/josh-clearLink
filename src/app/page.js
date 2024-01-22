@@ -95,7 +95,7 @@ export default function Home() {
                   Scheduling made easy
                 </h1>
                 <p className="text-[15px] text-gray-600">
-                  Streamline your agenda with ClearLink's intuitive scheduling.
+                  Streamline your agenda with ClearLinks intuitive scheduling.
                   Set up meetings, send invitations, and receive reminders in
                   one place.
                 </p>
